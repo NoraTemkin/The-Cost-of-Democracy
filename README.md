@@ -59,9 +59,9 @@ SERPAPI_KEY="your_api_key_here"
 2. **Set the branch to track your remote:**
    ```bash
    git push --set-upstream origin feature/your-feature-name
-   ```
+   ` ` `
 
-3. **Before making new changes, sync with `main` using rebase. Ensure your working directory is clean:**
+3. **Before making new chhanges, sync with `main` using rebase. Ensure your working directory is clean:**
    ```bash
    git status        # Check for uncommitted changes
    git pull --rebase origin main
